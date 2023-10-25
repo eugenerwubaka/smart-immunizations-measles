@@ -14,14 +14,13 @@ Usage:        #definition
   * target = $GENDER
   * insert ElementMap(DE6, male, equivalent)
   * insert ElementMap(DE7, female, equivalent)
-  * insert ElementMap(DE8, unknown, equivalent)
-  * insert ElementMap(DE9, other, wider)
+  
 
 * group[+]
   * source = $GENDER
   * target = Canonical(IMMZ.C)
   * insert ElementMap(male, DE6, equivalent)
   * insert ElementMap(female, DE7, equivalent)
-  * insert ElementMap(unknown, DE8, equivalent)
-  * insert ElementMap(other, DE9, narrower)
+  * insert ElementMap(unknown, DE6, equivalent)
+  * insert ElementMap(other, DE6, narrower)
   * element[=].target[=].comment = "The source concept is more specific than the target"
