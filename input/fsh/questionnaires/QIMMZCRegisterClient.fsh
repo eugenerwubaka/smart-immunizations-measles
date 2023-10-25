@@ -26,12 +26,6 @@ Usage: #definition
   * code[+] = IMMZ.C#DE2
   * code[+] = $LNC#54125-0 "Patient name"
   * code[+] = $SCT#371484003 "Patient name (observable entity)"
-  * insert Question(fullName, Full name of the client,string,true,false)
-  * item[=]
-    * code[+] = IMMZ.C#DE2
-    * code[+] = $LNC#54125-0 "Patient name"
-    * code[+] = $SCT#371484003 "Patient name (observable entity)"
-
   * insert Question(firstName, First or given name,string,false,false)
   * item[=]
     * code[+] = IMMZ.C#DE3
@@ -82,15 +76,12 @@ Usage: #definition
   * code[+] = $LNC#42077-8 "Patient Phone number"
   * code[+] = $SCT#184103008 "Patient telephone number (observable entity)"
 
-* insert Question(administrativeArea, Administrative area,choice,false,false)
+* insert Question(administrativeArea, Organization unit,choice,false,false)
 * item[=]
   * code[+] = IMMZ.C#DE19
   * code[+] = $LNC#56799-0 "Address"
   * code[+] = $SCT#184097001 "Patient address (observable entity)"
 
 
-* insert Question(healthWorker, Health Worker,boolean,true,false)
-* item[=]
-  * code[+] = IMMZ.C#DE20
 
 
