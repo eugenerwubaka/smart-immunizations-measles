@@ -21,6 +21,4 @@ Usage:        #definition
   * target = Canonical(IMMZ.C)
   * insert ElementMap(male, DE6, equivalent)
   * insert ElementMap(female, DE7, equivalent)
-  * insert ElementMap(unknown, DE6, equivalent)
-  * insert ElementMap(other, DE6, narrower)
   * element[=].target[=].comment = "The source concept is more specific than the target"
